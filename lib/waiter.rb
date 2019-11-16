@@ -21,6 +21,7 @@ class Waiter
   
   def best_tipper
     tips = self.meals.map {|meal| meal.tip}
+    tips. 
   end
   
   def self.all 
