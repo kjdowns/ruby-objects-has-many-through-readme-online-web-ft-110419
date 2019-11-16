@@ -20,7 +20,7 @@ class Waiter
   end
   
   def best_tipper
-    self.meals
+    tips = self.meals.map {|meal| meal.tip}
   end
   
   def self.all 
