@@ -22,7 +22,7 @@ class Waiter
   def best_tipper
     tips = self.meals.map {|meal| meal.tip}
     max_tip = tips.max
-    self.meals.find {|meal| meal.customer if meal.tip == max_tip}
+    self.meals.
   end
   
   def self.all 
