@@ -13,6 +13,10 @@ class Meal
     @@all << self
   end
   
+  def tip 
+    @tip
+  end
+  
   def self.all
     @@all
   end
